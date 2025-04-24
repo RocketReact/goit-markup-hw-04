@@ -1,0 +1,271 @@
+* {
+  color: var(--black);
+  text-decoration: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--lightest-dark-blue);
+  background-color: var(--white);
+}
+
+:root {
+  --white: #ffffff;
+  --lightest-blue: #f4f4fd;
+  --blue: #4d5ae5;
+  --dark-light-blue: #404bbf;
+  --dark-blue: #2e2f42;
+  --lightest-dark-blue: #434455;
+  --black: #000000;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+.section {
+  padding: 120px 0;
+}
+.container {
+  margin: 0 auto;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+.column {
+  flex-direction: column;
+}
+
+/* header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.flex {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--blue);
+  align-content: center;
+  margin-right: 76px;
+}
+.span1 {
+  color: var(--dark-blue);
+}
+.menu {
+  display: flex;
+  font-weight: 500;
+  padding: 24px 0;
+  gap: 40px;
+}
+.navigation li {
+  list-style-type: none;
+}
+.navigation-a {
+  padding: 24px 0;
+  color: var(--dark-blue);
+}
+.navigation-a:hover,
+.navigation-a:focus {
+  color: var(--dark-light-blue);
+}
+.contacts-info {
+  font-style: normal;
+}
+.contacts-info-a {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--lightest-dark-blue);
+}
+.contacts-info-a:hover,
+.contacts-info-a:focus {
+  color: var(--dark-light-blue);
+}
+.contacts-info li {
+  list-style-type: none;
+  flex-shrink: 0;
+}
+.list-contacts {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* first section*/
+.banner {
+  padding: 188px 0;
+  background-color: var(--dark-blue);
+  text-align: center;
+}
+.hero-text {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: white;
+  max-width: 496px;
+  height: auto;
+  letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  justify-self: center;
+}
+.btn-hero-img {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  color: white;
+  background-color: var(--blue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.btn-hero-img:hover,
+.btn-hero-img:focus {
+  background-color: var(--dark-light-blue);
+  cursor: pointer;
+}
+
+/* second section*/
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
+.element-li {
+  width: calc((100% - 72px));
+}
+.title-second {
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-blue);
+  margin-bottom: 72px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title-third {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-blue);
+  margin-bottom: 8px;
+  text-align: start;
+}
+.wt-we-do-paragraph {
+  color: var(--lightest-dark-blue);
+  text-align: start;
+}
+
+/* third section*/
+.title-section-third {
+  text-align: center;
+  margin-bottom: 72px;
+}
+.text-center {
+  padding: 32px 0;
+}
+.text-center .title-third,
+.text-center .wt-we-do-paragraph {
+  text-align: center;
+}
+.color-bg-our-team {
+  background-color: var(--lightest-blue);
+}
+.team-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  overflow: hidden;
+}
+.fix-line-height {
+  line-height: 1.11;
+}
+.li-team-member {
+  background-color: var(--white);
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 #2e2f4214,
+    0 1px 1px 0 #2e2f4229,
+    0 1px 6px 0 #2e2f4214;
+}
+
+/* fourth section */
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-grid img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-text h3,
+.portfolio-text p {
+  text-align: start;
+}
+
+/* footer */
+.footer {
+  background-color: var(--dark-blue);
+  padding: 100px 0;
+}
+.bottom-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: auto;
+}
+.span-second {
+  color: var(--lightest-blue);
+}
+.footer-paragraph {
+  color: var(--lightest-blue);
+  width: 100%;
+  max-width: 264px;
+  margin-right: auto;
+}
