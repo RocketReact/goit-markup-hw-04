@@ -115,8 +115,11 @@ img {
 /* first section*/
 .banner {
   padding: 188px 0;
-  background-color: var(--dark-blue);
   text-align: center;
+  background-color: var(--dark-blue);
+  background-image:
+          linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)), url("/images/people-office 1.jpg");
 }
 .hero-text {
   font-size: 56px;
