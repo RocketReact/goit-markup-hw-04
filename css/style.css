@@ -194,16 +194,16 @@ img {
 
 }
 .icon1 {
-
+  display: flex;
   background-color: var(--lightest-blue);
   border: 1px solid var(--middle-grey);
   border-radius: 4px;
   margin-bottom: 8px;
   padding: 24px 100px;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
-  display: block;
-
+  height: 112px;
 }
 
 
