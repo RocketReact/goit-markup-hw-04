@@ -317,21 +317,15 @@ img {
 }
 .row {
   display: flex;
+  align-items: stretch;
+  height: 100%;
 
-
-}
-
-.dsj{
-  display: inline-block;
-  color: var(--lightest-blue);
-  width: 100%;
-  max-width: 264px;
-  margin-right: auto;
-  margin-bottom: 16px;
-  align-content: start;
 }
 
 .footer-social {
-
+  display: flex;
+  flex-direction: column;
   margin-left: 120px;
+  height: 100%;
+
 }
