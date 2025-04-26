@@ -231,7 +231,7 @@ img {
 .text-center .wt-we-do-paragraph {
   text-align: center;
 }
-.training-icons {
+.social-icons {
   display: flex;
   gap:24px;
   padding-bottom: 32px;
@@ -307,8 +307,31 @@ img {
   color: var(--lightest-blue);
 }
 .footer-paragraph {
+  display: flex;
   color: var(--lightest-blue);
   width: 100%;
   max-width: 264px;
   margin-right: auto;
+  margin-bottom: 16px;
+  align-content: start;
+}
+.row {
+  display: flex;
+
+
+}
+
+.dsj{
+  display: inline-block;
+  color: var(--lightest-blue);
+  width: 100%;
+  max-width: 264px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  align-content: start;
+}
+
+.footer-social {
+
+  margin-left: 120px;
 }
