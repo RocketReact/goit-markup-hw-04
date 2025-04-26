@@ -248,6 +248,9 @@ img {
   margin-bottom: 72px;
 }
 
+.text-center {
+  padding: 32px 0
+}
 .text-center .title-third,
 .text-center .wt-we-do-paragraph {
   text-align: center;
@@ -299,9 +302,7 @@ img {
     0 1px 6px 0 var(--grey-ligtest);
   justify-items: center;
   align-items:  center;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+
 }
 
 .team-member-image {
