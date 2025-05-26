@@ -328,6 +328,7 @@ img {
 }
 .portfolio-li:hover .paragraph-img {
   transform: translateY(0%);
+  cursor: pointer;
 }
 .portfolio-grid img {
   width: 100%;
